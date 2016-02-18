@@ -1,2 +1,2 @@
 # fabcatsLite
-Development repository for a lite version of Fabulous Family digital learning game.
+Development repository for Fabolous Cats digital learning game.
