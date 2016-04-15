@@ -1,1 +1,13 @@
+User interface assets are to be placed accordingly:
 
+MenuScreen
+  >MenuButton01
+  >MenuButton02
+  
+3Dview
+  >MenuReturnButton
+
+DialogueScreen
+  >DialogueButton01
+  >DialogueButton02
+  >UndoButton
