@@ -1,0 +1,67 @@
+Dialogue options texts and connections
+----------------------
+number in front of name to clarify dialogue order
+dialogue paths are marked with numbers
+number inside () is player choice
+number inside [] is NPC reaction
+word within [] is an action on screen (for now it can just be left inside dialogue text)
+player will always have to choose one choice from both parents each time.
+After two parents’ choices have been made, dialogue cuts to CAT S response.
+CAT S response will depend on answer of the parent chosen as second.
+-----------------------
+Street, Japan
+Shop Window
+        Toy[Interactive]: waving Lucky Cat            
+    0Cat S [NPC]:                 
+        [0]CAN I HAVE THIS TOY, PLEASE?
+    1Cat L 1:
+   	(1.1a>game gives player L 2 choices)Let's buy!
+	(1.1b>2) We have to hurry, sweetie.
+	
+    1Cat L 2:
+        (2.4>3) No, you already have so many toys!
+        (2.2>2) [hugging] Not now, sweetie, have to rush to Metro.
+        (2.1>2) Not now!
+        (2.3>1) We have to hurry to Metro station.
+
+    1Cat S:
+        [1] I am not coming with you!
+        [2] Please!
+        [3] I WANT THAT TOY!
+
+    2Cat L 1:
+        (1.2>connected to 2.5) Why are you always denying everything for kids?
+        (1.3>6) Sweetie, stop it now! Maybe tomorrow!
+
+    2Cat L 2:
+   	(2.5>connected to 1.2>S???)Dear, don't start!
+        (2.6>5) [Will try to crab from paw of S]
+        (2.7>5) No, let's go!
+        (2.8>7) Behave yourself!
+
+    2Cat S:        
+        [5] [Throws to ground] I AM NOT COMING WITH YOU!
+        [6] Why are others getting everything?!
+        [7] [Starts crying loudly]
+
+    3Cat L 1:
+        (1.4>8) What's wrong with you?!
+        (1.5>4) [Brushing tears away]
+        (1.6>2.8) Always you and only you!
+        
+    3Cat L 2:
+        (2.8>9) We have stopped here 10 minutes! Let's buy it and go to Metro!
+        (2.8>8) Be quiet, snatch!
+
+    4Cat L 1:
+        (1.7>4) Enough! [Crab the Cat S and leave]
+        (1.8>9) Let's buy and leave L 2 here
+
+    3Cat S:
+        [8] I HATE YOU!
+        [4] [Ears fall]
+        [9] [Purring]
+
+-------------------------
+Change scene
+-------------------------
