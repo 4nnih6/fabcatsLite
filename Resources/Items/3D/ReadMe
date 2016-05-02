@@ -1,0 +1,4 @@
+Testing what the flat image would look like as an object in 3D, here we have:
+1) CatToyRed - Flat - image attached as texture on plane
+2) CatToy_Curved3 - Symmetrical Curved - texture attached to a curved plane
+3) CatToy_Curved4 - Asymmetrical Curved - texture attached to a slightly asymmetrical curved plane.
