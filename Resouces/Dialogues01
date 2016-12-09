@@ -1,0 +1,67 @@
+
+Dear, don't start!
+
+
+
+No, 
+
+Please!
+PurringD
+
+Dialogue options
+----------------------
+number in front of name to clarify dialogue order
+dialogue paths are marked with numbers
+number inside () is player choice
+number inside [] is NPC reaction
+word within [] is an action on screen
+-----------------------
+Street, Japan
+Shop Window
+        Toy[Interactive]: waving Lucky Cat            
+	1Cat S [NPC]:                 
+		[0]CAN I HAVE THIS TOY, PLEASE?
+	1Cat L 1:
+		(1>L 2 choices)Let's buy!
+	
+	1Cat L 2:
+		(2>8) Not now!
+		(3>8)[hugging] Not now, sweetie, have to rush to Metro
+		(4>7)We have to hurry to Metro Station.
+		(6>10) No, you already have so many toys! 
+	2Cat S:
+		[7]I am not coming with you!
+		[8]Please!
+		[9][purring]
+		[10]I WANT THAT TOY!
+
+	2Cat L 1:
+		(11)Why are you always denying everything for kids?
+		(12>19)Sweetie, stop it now! Maybe tomorrow
+
+	2Cat L 2:
+		(13>)Will try to crab from paw of S
+		(14>)No, lets go!
+		(15>)Dear, don't start!
+		(16>)Behave yourself!
+	3Cat S:
+		[18][Ears fall]
+		[19]Why others get everything?!
+		[20][Starts crying loudly]
+
+	Cat L 1:
+		(21>)What's wrong with you?!
+		(22>)[Brushing tears away]
+		(>)Always you and only you!
+		
+	Cat L 2:
+		(5>9)We have stopped here 10 minutes! Let's buy it and go to Metro!
+		(>17)Be quiet, bitch!
+
+	Cat S:
+		[17]I HATE YOU!
+		[][Throws to ground] I AM NOT COMING WITH YOU!
+
+		()Enough! [Crab the Cat S and leave]
+
+
